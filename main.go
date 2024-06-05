@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"sriganeshlokesh/data_structures/arrays/problems/maximum_sub_array"
+	"sriganeshlokesh/data_structures/arrays/problems/best_time_to_buy_and_sell_stock"
 )
 
 func main() {
-	//fmt.Println(two_sum.TwoSum([]int{2, 7, 11, 15}, 9))
-	fmt.Println(maximum_sub_array.MaximumSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
+	fmt.Println(best_time_to_buy_and_sell_stock.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 }
