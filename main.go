@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-	"sriganeshlokesh/data_structures/arrays/problems/buildings_with_an_ocean_view"
-	"sriganeshlokesh/data_structures/arrays/problems/merge_intervals"
+	"sriganeshlokesh/data_structures/arrays/problems/intersection_of_two_arrays"
 )
 
 func main() {
-	fmt.Println(buildings_with_an_ocean_view.FindBuildings([]int{1, 3, 2, 4}))
-	fmt.Println(merge_intervals.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
+	fmt.Println(intersection_of_two_arrays.Intersection([]int{1, 2, 2, 1}, []int{2, 2}))
 }
